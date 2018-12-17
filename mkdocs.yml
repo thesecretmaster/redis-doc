@@ -1,7 +1,7 @@
 site_name: Redis Documentation
 docs_dir: readthedocs
 theme: readthedocs
-nav:
+pages:
   - Preface: index.md
   - Commands: https://redis.io/commands
   - Modules:
