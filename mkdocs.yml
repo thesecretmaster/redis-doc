@@ -1,0 +1,14 @@
+site_name: Redis Documentation
+docs_dir: readthedocs
+theme: readthedocs
+nav:
+  - Preface: index.md
+  - Commands: https://redis.io/commands
+  - Modules:
+    - Intro: topics/modules-intro.md
+    - API Reference: topics/modules-api-ref.md
+    - Data Types:
+      - Basic Types: topics/data-types-intro.md
+      - Collection Types: topics/data-types.md
+      - Native types: topics/modules-native-types.md
+    - Blocking Operations: topics/modules-blocking-ops.md
